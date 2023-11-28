@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "VinnytsiaSansReg";
+  src: url("../public/fonts/vinnytsiasansreg.ttf");
+}
+
+:root {
+  --weit: 0, 0, 0;
+  --back: 255, 255, 255;
+}
+
+
+*{
+  font-family: VinnytsiaSansReg;
+}
+
+body {
+  color: (var(--back));
+  background: (var(--weit))
+}
+
+.nav {
+  a{
+margin-left: 10px;
+width: 120px;
+text-align: center
+}
+.qw{
+  width:170px
+}
+}
