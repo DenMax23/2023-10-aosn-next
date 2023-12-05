@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <div className=" bg-black text-white">
+    <div className=" bg-black text-white rounded-xl">
 <div className=" flex justify-around text-2xl py-7">
       <Link href="/" className=" flex h-24 mt-10 ">
         <Image src="/logo-yellow.svg" width={80} height={96} alt='logo' priority />

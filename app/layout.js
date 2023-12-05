@@ -11,10 +11,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className='mx-auto px-5'>
         <div>
            {children}
-        </div>
+        </div >
         <Footer />
         </body>
     </html>
