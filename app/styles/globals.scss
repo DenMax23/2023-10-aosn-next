@@ -4,13 +4,15 @@
 
 @font-face {
   font-family: "VinnytsiaSansReg";
-  src: url("../public/fonts/vinnytsiasansreg.ttf");
+  src: url("../../public/fonts/vinnytsiasansreg.ttf");
 }
 
-:root {
-  --weit: 0, 0, 0;
-  --back: 255, 255, 255;
-}
+@import "./colors.scss";
+@import "./categories.scss";
+@import "./reset.scss";
+
+
+
 
 
 *{
@@ -18,7 +20,7 @@
 }
 
 body {
-  color: (var(--back));
+  color: (var(-textVisions));
   background: (var(--weit))
 }
 
@@ -32,3 +34,5 @@ text-align: center
   width:170px
 }
 }
+
+

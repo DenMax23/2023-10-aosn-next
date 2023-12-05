@@ -1,0 +1,41 @@
+.categories {
+    li {
+      margin: 20px;
+      padding: 10px;
+      cursor: pointer;
+      display: flex;
+    //   align-items: center;
+      justify-content: end;
+  
+      &:hover {
+        color: var( --guidance);
+      }
+  
+    //   &:active {
+    //     background-color: var( --guidance);
+    //   }
+  
+      &.active {
+        // color: ;
+        // border-color: var(--accent);
+        color: var( --guidance);
+      }
+    }
+  }
+  
+  .ul-text{
+    li{
+    //   border-color: var(--textColor);
+      // visibility: hidden;
+      display: none;
+      &.active {
+        // visibility: visible;
+        display: block;
+        height: auto;
+        padding: 10px;
+        color: var(--textVisions);
+        // border: 5px var(--accent) double;
+        // background-color: var(--darken-2);
+      }
+    }
+  }

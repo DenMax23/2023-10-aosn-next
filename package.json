@@ -9,11 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.8.7",
+    "@supabase/supabase-js": "^2.39.0",
     "next": "14.0.1",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@types/react": "18.2.41",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
