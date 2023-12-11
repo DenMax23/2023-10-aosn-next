@@ -10,11 +10,11 @@ async function quarterlyTitle({ params }) {
   const selectedRow = data.find((el) => el.id === Number(paramsId));
 
   return (
-    <div className="w-11/12 mx-auto flex flex-wrap">
+    <div className="w-11/12 mx-auto flex items-center justify-center">
       {selectedRow && (
         <div
           key={selectedRow.id}
-          className="border-gray-800 border-solid rounded-xl w-52 m-5 p-3 text-center"
+          className="border-gray-800 border-solid rounded-xl w-full h-full m-5 p-3 text-center"
         >
           <p>{selectedRow.title}</p>
           <p>{selectedRow.id}</p>

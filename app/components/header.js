@@ -32,19 +32,12 @@ const Header = () => {
         <Image className=" w-auto" src="/main-logo.png" width={80} height={60} alt='logo' priority />
         <p className=" text-center text-xl  pl-3 py-1.5">Асоціація органів <br/> самоорганізації населення <br/> м.Вінниці</p>
         </Link>
-        <nav className="flex border-slate-500 border-solid rounded-xl  ">
+        <nav className="flex items-center border-slate-500 border-solid rounded-xl  ">
           {titleNav.map((titleNav, i) => (
         <Link key={i} className=" hover:bg-slate-400 rounded-xl p-3 w-auto mx-2" href={titleNav.link}>{titleNav.name}
         </Link>
             
         ))}
-
-
-          {/* <Link className=" hover:bg-slate-400 rounded-xl p-3 w-auto mx-2" href="/dashboard">Головна сторінка</Link>
-          <Link className=" hover:bg-slate-400 rounded-xl p-3 w-auto mx-2"  href="/dashboard/news">Новини</Link>
-          <Link className=" hover:bg-slate-400 rounded-xl p-3 w-auto mx-2" href="/dashboard/events">Події</Link>
-          <Link className=" hover:bg-slate-400 rounded-xl p-3 w-auto mx-2" href="/dashboard/quarterly">Квартальні комітети та комітети мікрорайонів</Link>
-          <Link className=" hover:bg-slate-400 rounded-xl p-3 w-auto mx-2" href="/dashboard/contacts">Контакти</Link> */}
         </nav>
     </div>
   
