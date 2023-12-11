@@ -6,8 +6,8 @@ const Footer = () => {
     <div className=" bg-black text-white rounded-xl">
 <div className=" flex justify-around text-2xl py-7">
       <Link href="/" className=" flex h-24 mt-10 ">
-        <Image src="/logo-yellow.svg" width={80} height={96} alt='logo' priority />
-        <Image className="ml-2.5 mt-4" src="/logo-white.png" width={65} height={96} alt='logo' priority />
+        <Image className="" src="/logo-yellow.svg" width={80} height={96} alt='logo' priority />
+        <Image className="ml-2.5 mt-4 h-auto w-auto" src="/logo-white.png" width={65} height={96} alt='logo' priority />
         <p className=" text-center text-xl  pl-3 py-1.5">Асоціація органів <br/> самоорганізації населення <br/> м.Вінниці</p>
         </Link>
         <nav className=" flex flex-col">

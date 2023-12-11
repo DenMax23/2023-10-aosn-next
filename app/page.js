@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import HeaderStart from './components/headerStart'
+import Footer from './components/footer'
+
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <div>
           1111
         </div>
+        <Footer />
     </main>
   )
 }

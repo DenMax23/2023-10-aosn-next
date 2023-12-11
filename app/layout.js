@@ -1,5 +1,4 @@
 import './styles/globals.scss'
-import Footer from './components/footer'
 
 
 
@@ -15,7 +14,7 @@ export default function RootLayout({ children }) {
         <div>
            {children}
         </div >
-        <Footer />
+       
         </body>
     </html>
   )

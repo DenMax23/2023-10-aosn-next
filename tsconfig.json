@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/dashboard/quarterly/page.jsx"  ],
+, "app/dashboard/quarterly/page.js"  ],
   "exclude": [
     "node_modules"
   ]

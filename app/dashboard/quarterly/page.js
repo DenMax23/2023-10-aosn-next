@@ -14,7 +14,7 @@ async function quarterly() {
             <p>{el.title}</p>
             {/* <p>{el.description_g}</p> */}
             {/* <p>{el.name_g}</p> */}
-            <Link href={"/" + el.title}>
+            <Link href={"/dashboard/quarterly/" + el.id}>
               <button className=" hover:bg-slate-600 bg-slate-400 rounded-xl p-2 m-5">Більше інформації</button>
             </Link>
           </div>
