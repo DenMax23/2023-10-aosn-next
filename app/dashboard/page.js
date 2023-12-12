@@ -1,6 +1,6 @@
+
+
 import DisclosureBlock from '../components/disclosureBlock' 
-
-
 
 export default function Page() {
     return (
