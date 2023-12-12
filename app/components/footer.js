@@ -14,14 +14,14 @@ const Footer = () => {
             alt="logo"
             priority
           /> */}
-          <Image
+          {/* <Image
             className="ml-2.5 mt-4"
             src="/logo-white.png"
             width={65}
             height={96}
             alt="logo"
             priority
-          />
+          /> */}
           <p className=" text-center text-xl  pl-3 py-1.5">
             Асоціація органів <br /> самоорганізації населення <br /> м.Вінниці
           </p>
